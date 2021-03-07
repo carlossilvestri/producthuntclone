@@ -7,13 +7,13 @@ const Heading = styled.h1`
   color: red;
 `;
 
-export default function Home() {
-  const {productos} = useProductos('creado');
+export default function Populares() {
+  const {productos} = useProductos('votos');
   return (
     <Fragment>
       <div>
         <Layout>
-        <Heading>Inicio</Heading>
+        <Heading>Populares</Heading>
           <div className="listado-productos">
             <div className="contenedor">
               <div className="bg-white">

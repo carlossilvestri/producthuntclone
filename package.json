@@ -5,11 +5,24 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next export"
   },
   "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@emotion/babel-plugin": "^11.1.2",
+    "@emotion/babel-preset-css-prop": "^11.0.0",
+    "@emotion/react": "^11.1.4",
+    "@emotion/styled": "^11.0.0",
+    "babel-plugin-emotion": "^11.0.0",
+    "date-fns": "^2.18.0",
+    "firebase": "^8.2.4",
     "next": "10.0.5",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "react-firebase": "^2.2.8",
+    "react-firebase-file-uploader": "^2.4.4",
+    "reactfire": "^3.0.0-rc.0",
+    "styled-components": "^5.2.1"
   }
 }
